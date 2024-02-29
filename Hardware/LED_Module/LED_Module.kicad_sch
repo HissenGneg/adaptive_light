@@ -1,0 +1,604 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "16808901-367a-4ed1-b5c3-f1221533388f")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 381 19.05) (xy 381 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbb2833-7c39-42b1-97da-112a4c04d69f")
+	)
+	(text "White\n\nRed\n\nAmber"
+		(exclude_from_sim no)
+		(at 142.494 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify top)
+		)
+		(uuid "0bb82ae5-2178-4b98-8468-ed8f62fdf992")
+	)
+	(sheet
+		(at 130.81 48.26)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f84623b-64c8-4d08-bd76-cb26c1d6d14e")
+		(property "Sheetname" "CAN_bus"
+			(at 130.81 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_bus.kicad_sch"
+			(at 130.81 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{INT}" output
+			(at 130.81 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8f088e50-31f3-4e5e-9fe2-ef3bf8b02dda")
+		)
+		(pin "SCK" input
+			(at 130.81 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5dce4414-3ee0-467f-acc6-23d3e0aeb33a")
+		)
+		(pin "MISO" output
+			(at 130.81 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc786acd-c7ec-442b-9c16-2641ef7bbc7c")
+		)
+		(pin "MOSI" input
+			(at 130.81 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a52293ec-e0ac-4f3f-8c5b-fa114aa576b0")
+		)
+		(pin "~{CS}" input
+			(at 130.81 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "198a018a-2afe-4a15-b0ea-0f31665cca5e")
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 24.13)
+		(size 29.21 80.01)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "491ba666-eea9-4d2d-9b48-12ddc2954e77")
+		(property "Sheetname" "Microcontroller"
+			(at 66.04 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 66.04 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO24" bidirectional
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f4a9e226-10d6-430c-a369-68d8d43ecefe")
+		)
+		(pin "GPIO22" bidirectional
+			(at 95.25 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8f4d01ee-aae4-4c43-a72d-86e6bfe3e014")
+		)
+		(pin "GPIO23" bidirectional
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c4321ce-3bbb-4fc6-b13c-9fb8471127b6")
+		)
+		(pin "GPIO25" bidirectional
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c56d0d0a-d58b-4bb4-b9f6-f9c6a9d56784")
+		)
+		(pin "GPIO6" bidirectional
+			(at 95.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5179a1ac-e75b-43de-aef3-58863f4f63f9")
+		)
+		(pin "GPIO0" bidirectional
+			(at 95.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7643829-129b-414a-8bf1-6d56e52a201f")
+		)
+		(pin "GPIO8" bidirectional
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e4da0790-60d8-4e11-84a9-6a01a642f68e")
+		)
+		(pin "GPIO10" bidirectional
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1de01b76-1669-43a7-a43a-45d121b89490")
+		)
+		(pin "GPIO7" bidirectional
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "63245e78-784f-41fe-a303-5fae7bde6d4a")
+		)
+		(pin "GPIO9" bidirectional
+			(at 95.25 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea9d1173-456a-4ae2-bda8-3ae79ea268db")
+		)
+		(pin "GPIO11" bidirectional
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90752a84-64fc-4d3f-b047-a698bd2eb69d")
+		)
+		(pin "GPIO14" bidirectional
+			(at 95.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fd7ceec3-ccc9-4a97-a097-b2f84f7822d1")
+		)
+		(pin "GPIO15" bidirectional
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "162e27f1-9309-45fb-ac8c-bf1d3f1223b4")
+		)
+		(pin "GPIO16" bidirectional
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "735a2ee3-8e65-4475-a730-030ac14297ab")
+		)
+		(pin "GPIO13" bidirectional
+			(at 95.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "49858c28-57d1-4316-a5a5-4b7ae2464572")
+		)
+		(pin "GPIO12" bidirectional
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bebd95ff-a955-412b-8f1c-96192ff6aee3")
+		)
+		(pin "GPIO20" bidirectional
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7fa4aaf1-6032-4dee-9ee0-e1ce1be080b8")
+		)
+		(pin "GPIO21" bidirectional
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98ff7b28-6496-4e5f-b8d3-e253a3859d60")
+		)
+		(pin "GPIO18" bidirectional
+			(at 95.25 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "37e1c0bd-a9af-4407-894b-8c1921be07fe")
+		)
+		(pin "GPIO17" bidirectional
+			(at 95.25 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69bf3143-f3ec-4aa6-907d-4e14fc8fca79")
+		)
+		(pin "GPIO19" bidirectional
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "351ae426-37c3-4ee3-91ca-af2060773b5d")
+		)
+		(pin "GPIO4" bidirectional
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd7c36b3-411d-4dc1-94e3-5119c478f4f7")
+		)
+		(pin "GPIO2" bidirectional
+			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea56953b-e9d5-4b5a-be01-bc187c5abc6a")
+		)
+		(pin "GPIO5" bidirectional
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "52e9943f-2b88-494c-854b-37e994f008c3")
+		)
+		(pin "GPIO3" bidirectional
+			(at 95.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d299b9d-273c-4dd5-a303-098afab54e14")
+		)
+		(pin "GPIO1" bidirectional
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe6ac2be-e6be-42a9-9238-8c2931c74bd4")
+		)
+		(pin "GPIO26_ADC0" output
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1073548b-b13c-41ac-9243-5a3039916b63")
+		)
+		(pin "GPIO28_ADC2" output
+			(at 95.25 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ebf696de-80cc-4f92-be0e-1e2bf20c4162")
+		)
+		(pin "GPIO27_ADC1" output
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eee48e34-1ec6-448d-8330-3780338caef8")
+		)
+		(pin "GPIO29_ADC3" output
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cf90125f-b9cf-4c8b-befb-b7ce63f04191")
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 21.59)
+		(size 25.4 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac7ce9ab-1b69-43a5-a489-e20382a6a58b")
+		(property "Sheetname" "Power"
+			(at 20.32 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 20.32 36.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 24.13)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0e35f56-5ab9-4984-b669-2cd6901739d7")
+		(property "Sheetname" "LED_driver"
+			(at 130.81 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LED_driver.kicad_sch"
+			(at 130.81 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIM_1" input
+			(at 130.81 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e63b1ca1-2d69-4e62-9a8e-e82704c3bd8f")
+		)
+		(pin "DIM_2" input
+			(at 130.81 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea79b971-9a91-41d1-b3d4-3b22dad3198c")
+		)
+		(pin "DIM_3" input
+			(at 130.81 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0b5f99e-f7af-4f01-aa65-647447e7a0f9")
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 71.12)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e9010f9b-e0a7-41f4-995c-14b2e7b39a86")
+		(property "Sheetname" "Sensors"
+			(at 130.81 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 130.81 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

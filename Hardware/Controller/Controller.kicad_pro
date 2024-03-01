@@ -588,6 +588,10 @@
     [
       "cad10da3-6191-42e8-9b78-3bdd7678f565",
       "Battery"
+    ],
+    [
+      "379fa222-d154-41d1-adf6-8c1e65041048",
+      "CAN_bus"
     ]
   ],
   "text_variables": {}

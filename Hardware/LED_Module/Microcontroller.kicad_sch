@@ -4258,6 +4258,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 69.85) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30701f96-8264-4ea8-9955-b2b81de72b22")
+	)
+	(wire
+		(pts
 			(xy 226.06 24.13) (xy 231.14 24.13)
 		)
 		(stroke
@@ -4375,6 +4385,16 @@
 			(type default)
 		)
 		(uuid "5c324be7-2058-4ac0-91ff-4db2ec6e6c7b")
+	)
+	(wire
+		(pts
+			(xy 153.67 68.58) (xy 154.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2a720e-fb98-42e0-8075-17df348e554f")
 	)
 	(wire
 		(pts
@@ -4598,7 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 68.58) (xy 180.34 68.58)
+			(xy 165.1 68.58) (xy 180.34 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6419,6 +6439,84 @@
 			(project "JBCock"
 				(path "/e866f8fb-0ce5-4a7b-98ed-8451088f137a"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 160.02 68.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2211729d-1843-44e5-bb2c-c462863ff1ae")
+		(property "Reference" "SW2"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/15/SKRK-1370789.pdf"
+			(at 160.02 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "688-SKRKAHE010 "
+			(at 160.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ceb9657-b9e4-4d19-aa0e-d507140298df")
+		)
+		(pin "1"
+			(uuid "5941def0-b2e1-436d-8414-51e8c90daacf")
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f/491ba666-eea9-4d2d-9b48-12ddc2954e77"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9741,6 +9839,73 @@
 			(project "JBCock"
 				(path "/e866f8fb-0ce5-4a7b-98ed-8451088f137a"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2771ba2-2ca1-460b-bf33-ac01be747e7d")
+		(property "Reference" "#PWR077"
+			(at 153.67 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c4267ec-8028-4911-9335-dc3b959acaa4")
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f/491ba666-eea9-4d2d-9b48-12ddc2954e77"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

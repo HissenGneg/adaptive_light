@@ -1,4 +1,4 @@
-23042868751065806
+23046290100398877
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94388,12 +94388,19 @@ Varistor VF
 2
 2
 footprints
+LUXEON 7070
+
+
+0
+0
+0
+footprints
 MC3479
 
 
 0
-0
-0
+12
+12
 footprints
 VQFN-HR-6pin-TexasInstruments
 
@@ -94401,3 +94408,10 @@ VQFN-HR-6pin-TexasInstruments
 0
 7
 6
+personal
+QFN-36_9.6x14_Pitch1mm
+
+
+0
+31
+31

@@ -3041,7 +3041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00ba70f1-900f-45ab-9c92-c97d88212eaf")
-		(property "Reference" "#PWR02006"
+		(property "Reference" "#PWR0206"
 			(at 207.01 76.2 0)
 			(effects
 				(font
@@ -3100,7 +3100,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02006")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -3116,7 +3116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "060b1801-feba-4542-8cb4-911fb2755c1c")
-		(property "Reference" "U2002"
+		(property "Reference" "U202"
 			(at 112.6841 76.2 0)
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "U2002")
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -3277,7 +3277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f50f39e-e988-47c6-8b55-815708474b64")
-		(property "Reference" "R2005"
+		(property "Reference" "R205"
 			(at 135.89 109.2199 0)
 			(effects
 				(font
@@ -3376,7 +3376,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "R2005")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1112b309-e364-4d5d-a6eb-106185e3af4d")
-		(property "Reference" "#PWR02007"
+		(property "Reference" "#PWR0207"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -3451,7 +3451,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02007")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "283c8edb-74c1-4d04-8261-a0f6c568f81a")
-		(property "Reference" "#PWR02015"
+		(property "Reference" "#PWR0215"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -3525,7 +3525,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02015")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -3541,7 +3541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28656fd9-b0ba-48f9-b92e-cb6e16b45d8f")
-		(property "Reference" "C2003"
+		(property "Reference" "C203"
 			(at 99.06 64.7699 0)
 			(effects
 				(font
@@ -3640,7 +3640,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "C2003")
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32526375-1b6c-4da9-a706-bb7384df06c9")
-		(property "Reference" "#PWR02008"
+		(property "Reference" "#PWR0208"
 			(at 175.26 105.41 0)
 			(effects
 				(font
@@ -3714,7 +3714,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02008")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -3730,7 +3730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33347734-9e69-47df-a87f-ad451167a7c9")
-		(property "Reference" "C2004"
+		(property "Reference" "C204"
 			(at 163.83 66.0399 0)
 			(effects
 				(font
@@ -3829,7 +3829,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "C2004")
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -3844,7 +3844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e365300-7378-4e9a-95e1-872047ee73a8")
-		(property "Reference" "C2006"
+		(property "Reference" "C206"
 			(at 49.53 113.03 90)
 			(effects
 				(font
@@ -3941,7 +3941,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "C2006")
+					(reference "C206")
 					(unit 1)
 				)
 			)
@@ -3957,7 +3957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "497763ff-e614-4c39-93f6-cd1fcdfd698e")
-		(property "Reference" "R2004"
+		(property "Reference" "R204"
 			(at 158.75 96.5199 0)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "R2004")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -4071,7 +4071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49b4487d-766d-4652-9bf1-83d671bbc2bb")
-		(property "Reference" "C2005"
+		(property "Reference" "C205"
 			(at 49.53 95.25 90)
 			(effects
 				(font
@@ -4168,7 +4168,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "C2005")
+					(reference "C205")
 					(unit 1)
 				)
 			)
@@ -4184,7 +4184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fe3e3e9-7c83-4c38-ae8e-c23b6331a1c2")
-		(property "Reference" "#PWR02013"
+		(property "Reference" "#PWR0213"
 			(at 133.35 110.49 0)
 			(effects
 				(font
@@ -4243,7 +4243,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02013")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -4259,7 +4259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aef9bcd-73e6-4f76-ace0-b5ec9853d496")
-		(property "Reference" "J2002"
+		(property "Reference" "J202"
 			(at 220.98 54.61 0)
 			(effects
 				(font
@@ -4362,7 +4362,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "J2002")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -4378,7 +4378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6076c352-6f24-4e0e-b328-a433e41b2055")
-		(property "Reference" "U2001"
+		(property "Reference" "U201"
 			(at 177.4541 76.2 0)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "U2001")
+					(reference "U201")
 					(unit 1)
 				)
 			)
@@ -4503,7 +4503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2dc197-3d39-4be9-81a4-90ad22097b7f")
-		(property "Reference" "#PWR02002"
+		(property "Reference" "#PWR0202"
 			(at 238.76 59.69 0)
 			(effects
 				(font
@@ -4562,7 +4562,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02002")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -4577,7 +4577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6af46b66-9006-49de-860d-7ae5a448210e")
-		(property "Reference" "#PWR02011"
+		(property "Reference" "#PWR0211"
 			(at 55.88 111.76 0)
 			(effects
 				(font
@@ -4636,7 +4636,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02011")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bc5de2b-f479-41e9-8a5c-3088a12218d6")
-		(property "Reference" "J2001"
+		(property "Reference" "J201"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -4754,7 +4754,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "J2001")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -4769,7 +4769,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86c39b7a-e6aa-45e4-a5fe-0459a5cd3708")
-		(property "Reference" "F2001"
+		(property "Reference" "F201"
 			(at 234.95 41.656 90)
 			(effects
 				(font
@@ -4866,7 +4866,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "F2001")
+					(reference "F201")
 					(unit 1)
 				)
 			)
@@ -4882,7 +4882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ceed679-10d2-4560-ba8c-690af97f9ea8")
-		(property "Reference" "#PWR02004"
+		(property "Reference" "#PWR0204"
 			(at 175.26 66.04 0)
 			(effects
 				(font
@@ -4941,7 +4941,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02004")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -4956,7 +4956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9aeada3f-4076-4776-b445-2ac721585c0d")
-		(property "Reference" "#PWR02014"
+		(property "Reference" "#PWR0214"
 			(at 44.45 115.57 0)
 			(effects
 				(font
@@ -5015,7 +5015,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02014")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -5030,7 +5030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6034920-d80a-4fef-b600-73a3acb677cc")
-		(property "Reference" "TP2001"
+		(property "Reference" "TP201"
 			(at 248.92 37.592 0)
 			(effects
 				(font
@@ -5115,7 +5115,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "TP2001")
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -5130,7 +5130,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aca95ee1-ed8d-431f-ae1b-4ba1ac2d304a")
-		(property "Reference" "#PWR02009"
+		(property "Reference" "#PWR0209"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -5189,7 +5189,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02009")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -5205,7 +5205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b16f1b24-22b6-4645-a8b9-fd8efce03e65")
-		(property "Reference" "R2002"
+		(property "Reference" "R202"
 			(at 144.78 88.8999 0)
 			(effects
 				(font
@@ -5304,7 +5304,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "R2002")
+					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -5319,7 +5319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2f79cc3-b89f-4735-acb7-f7a124dd096e")
-		(property "Reference" "#PWR02012"
+		(property "Reference" "#PWR0212"
 			(at 66.04 111.76 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02012")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c04a4a34-047d-4e4d-8db2-c58a441db55a")
-		(property "Reference" "Y2001"
+		(property "Reference" "Y201"
 			(at 60.96 96.52 90)
 			(effects
 				(font
@@ -5496,7 +5496,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "Y2001")
+					(reference "Y201")
 					(unit 1)
 				)
 			)
@@ -5511,7 +5511,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd3537e6-3c72-466d-9d50-fd5da3fb9135")
-		(property "Reference" "C2002"
+		(property "Reference" "C202"
 			(at 249.174 47.498 0)
 			(effects
 				(font
@@ -5610,7 +5610,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "C2002")
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -5626,7 +5626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbc2296-0410-4d54-b080-185b50611283")
-		(property "Reference" "R2001"
+		(property "Reference" "R201"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -5725,7 +5725,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "R2001")
+					(reference "R201")
 					(unit 1)
 				)
 			)
@@ -5741,7 +5741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d024ff2f-8da7-4cba-b9b1-a5c1eb6b8503")
-		(property "Reference" "#PWR02003"
+		(property "Reference" "#PWR0203"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -5800,7 +5800,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02003")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -5815,7 +5815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1c48b99-f374-4805-a4ed-db965984912b")
-		(property "Reference" "JP2001"
+		(property "Reference" "JP201"
 			(at 226.06 80.01 0)
 			(effects
 				(font
@@ -5903,7 +5903,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "JP2001")
+					(reference "JP201")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de37ec8f-2d38-4014-841b-46b1bc4e6913")
-		(property "Reference" "#PWR02010"
+		(property "Reference" "#PWR0210"
 			(at 156.21 107.95 0)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02010")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -5993,7 +5993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2da77b9-1e04-4376-8d10-c6a37bc7a6ab")
-		(property "Reference" "R2003"
+		(property "Reference" "R203"
 			(at 144.78 96.5199 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "R2003")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -6108,7 +6108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e469c9c8-6179-42eb-b7da-5cb6e5507942")
-		(property "Reference" "#PWR02005"
+		(property "Reference" "#PWR0205"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -6167,7 +6167,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02005")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6182,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7a327e2-e1d4-4ed4-94fe-4e44087644f7")
-		(property "Reference" "C2001"
+		(property "Reference" "C201"
 			(at 239.014 47.498 0)
 			(effects
 				(font
@@ -6281,7 +6281,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "C2001")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -6297,7 +6297,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fce065d7-004c-466f-a5af-e7a591f82e8d")
-		(property "Reference" "#PWR02001"
+		(property "Reference" "#PWR0201"
 			(at 262.89 49.53 0)
 			(effects
 				(font
@@ -6356,7 +6356,7 @@
 		(instances
 			(project "LED_Module"
 				(path "/16808901-367a-4ed1-b5c3-f1221533388f/3f84623b-64c8-4d08-bd76-cb26c1d6d14e"
-					(reference "#PWR02001")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)

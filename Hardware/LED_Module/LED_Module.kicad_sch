@@ -130,6 +130,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 93.98) (xy 96.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c27bbb6-3c7d-4d74-94e1-77e77de96613")
+	)
+	(wire
+		(pts
 			(xy 95.25 59.69) (xy 96.52 59.69)
 		)
 		(stroke
@@ -177,6 +187,16 @@
 			(type default)
 		)
 		(uuid "c1f69a7e-0aeb-486b-b165-2b2ceaff2d6b")
+	)
+	(wire
+		(pts
+			(xy 156.21 36.83) (xy 157.48 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c32e5467-ae33-4adf-9082-3c8f9faec6c4")
 	)
 	(wire
 		(pts
@@ -479,6 +499,17 @@
 		)
 		(uuid "ceb659f1-8abd-4a7e-9745-29a6a6bbaf16")
 	)
+	(label "LED_TEMP"
+		(at 157.48 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf1648c7-3a5b-4702-9a0e-1a955e101dcc")
+	)
 	(label "~{CS}"
 		(at 129.54 58.42 180)
 		(fields_autoplaced yes)
@@ -511,6 +542,17 @@
 			(justify right bottom)
 		)
 		(uuid "dcff2d99-f2f8-48c7-ac7f-d784a7cfed1f")
+	)
+	(label "LED_TEMP"
+		(at 96.52 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f57aba49-e806-440d-8515-ce7b01dbc4fa")
 	)
 	(label "SDA"
 		(at 97.79 36.83 0)
@@ -1057,6 +1099,16 @@
 				(justify left)
 			)
 			(uuid "d0b5f99e-f7af-4f01-aa65-647447e7a0f9")
+		)
+		(pin "LED_TEMP" output
+			(at 156.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bab3549d-6fd0-4dec-8c1a-f5cb9bf11c23")
 		)
 		(instances
 			(project "LED_Module"

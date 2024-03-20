@@ -3324,7 +3324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+		(property "Footprint" "footprints:JE2835_Amber"
 			(at 105.41 120.65 0)
 			(effects
 				(font
@@ -3520,7 +3520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR5045S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA252012S"
 			(at 76.2 107.95 0)
 			(effects
 				(font
@@ -3529,7 +3529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/122/ECS_MPI2520_SMD_POWER_INDUCTOR-1221975.pdf"
 			(at 76.2 107.95 0)
 			(effects
 				(font
@@ -3547,7 +3547,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "810-VLS5045EX-101M"
+		(property "mouser" "520-MPI2520R1-5R6-R"
 			(at 76.2 107.95 90)
 			(effects
 				(font
@@ -3824,7 +3824,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+		(property "Footprint" "footprints:JE2835_Amber"
 			(at 121.92 120.65 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+		(property "Footprint" "footprints:JE2835_Amber"
 			(at 88.9 120.65 0)
 			(effects
 				(font
@@ -6769,7 +6769,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4040-XXX"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -6778,7 +6778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_vls6045ex-h_en.pdf?ref_disty=mouser"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/597/xal4000-270751.pdf"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -6832,7 +6832,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "810-VLS6045EX-150M-H"
+		(property "mouser" " 994-XAL4040-153MEC "
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -7505,7 +7505,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_PLCC_2835"
+		(property "Footprint" "footprints:JE2835_Amber"
 			(at 138.43 120.65 0)
 			(effects
 				(font

@@ -718,7 +718,7 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal_GND23"
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -733,7 +733,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND23"
+			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
 				(effects
 					(font
@@ -760,7 +760,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Four pin crystal, GND on pins 2 and 3"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -787,7 +787,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_GND23_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -896,7 +896,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_GND23_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -934,7 +934,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "3"
 						(effects
@@ -952,7 +952,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 -5.08 90)
 					(length 1.27)
 					(name "4"
 						(effects
@@ -6224,7 +6224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 230.8352 41.91 0)
 			(effects
 				(font
@@ -6233,7 +6233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" ""
 			(at 229.87 38.1 0)
 			(effects
 				(font
@@ -6278,7 +6278,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-1206DD106MAT2A"
+		(property "mouser" "81-GRM21BR61H106KE3L"
 			(at 229.87 38.1 0)
 			(effects
 				(font
@@ -6527,7 +6527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.3652 184.15 0)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" ""
 			(at 25.4 180.34 0)
 			(effects
 				(font
@@ -6581,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-1206DD106MAT2A"
+		(property "mouser" "81-GRM21BR61H106KE3L"
 			(at 25.4 180.34 0)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND23")
+		(lib_id "Device:Crystal_GND24")
 		(at 52.07 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6648,7 +6648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/3/abm3b-1774998.pdf"
+		(property "Datasheet" "~"
 			(at 52.07 93.98 0)
 			(effects
 				(font
@@ -6657,7 +6657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 52.07 93.98 0)
 			(effects
 				(font
@@ -8441,7 +8441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.3652 144.78 0)
 			(effects
 				(font
@@ -8450,7 +8450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" ""
 			(at 25.4 140.97 0)
 			(effects
 				(font
@@ -8495,7 +8495,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-1206DD106MAT2A"
+		(property "mouser" "81-GRM21BR61H106KE3L"
 			(at 25.4 140.97 0)
 			(effects
 				(font
@@ -9442,7 +9442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 240.9952 41.91 0)
 			(effects
 				(font
@@ -9451,7 +9451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" ""
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -9496,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-1206DD106MAT2A"
+		(property "mouser" "81-GRM21BR61H106KE3L"
 			(at 240.03 38.1 0)
 			(effects
 				(font

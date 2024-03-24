@@ -2266,7 +2266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 102.87 0)
 			(effects
 				(font
@@ -2275,7 +2275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" ""
 			(at 36.83 99.06 0)
 			(effects
 				(font
@@ -2320,7 +2320,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-1206DD106MAT2A"
+		(property "mouser" "81-GRM21BR61H106KE3L"
 			(at 36.83 99.06 0)
 			(effects
 				(font
@@ -3356,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 37.7952 52.07 0)
 			(effects
 				(font
@@ -3365,7 +3365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.se/datasheet/2/40/cx5r_KGM-3223198.pdf"
+		(property "Datasheet" ""
 			(at 36.83 48.26 0)
 			(effects
 				(font
@@ -3410,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "581-1206DD106MAT2A"
+		(property "mouser" "81-GRM21BR61H106KE3L"
 			(at 36.83 48.26 0)
 			(effects
 				(font

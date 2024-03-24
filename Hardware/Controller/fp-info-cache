@@ -1,4 +1,4 @@
-23039450999761100
+23046282706793445
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94387,3 +94387,31 @@ Varistor VF
 0
 2
 2
+WCH
+ESSOP10
+
+
+0
+17
+11
+WCH
+SOIC-10
+
+
+0
+10
+10
+personal
+QFN-36_9.6x14_Pitch1mm
+
+
+0
+31
+31
+personal
+R_Shunt_Vishay_WSR2_WSR3_KelvinConnection_4pins
+Power Metal Strip Resistors 0.005 to 0.2, https://www.vishay.com/docs/30101/wsr.pdf
+SMD Shunt Resistor
+0
+4
+4

@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.6,
+          "width": 0.51
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -48,11 +48,33 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "hole_clearance|105190000|78650000|ee14ad87-7b3a-4004-969d-f16c8d358c95|8af759f9-d9b9-47d0-8cb0-934bbd3689a7",
+        "hole_clearance|105190000|78650000|ee14ad87-7b3a-4004-969d-f16c8d358c95|9351dd98-40d1-4db7-9fc0-e1d39625e001",
+        "hole_clearance|99090000|78650000|b3b28813-a79f-4d74-bcba-27d2582bd251|8253ee95-9e6f-4222-a31b-c23df6b8b746",
+        "hole_clearance|99090000|78650000|b3b28813-a79f-4d74-bcba-27d2582bd251|c72a429b-3f1a-470e-987e-4c4d978525ea",
+        "lib_footprint_mismatch|124812500|87675000|adf8b3f7-d7a7-4aa9-a5d3-2e545e4a0c77|00000000-0000-0000-0000-000000000000",
+        "shorting_items|105705000|106620000|c1c08b12-57f3-423c-a229-cd448e599ebc|f359599e-3361-4860-a939-f34a3e07bbf3",
+        "shorting_items|106880000|103995000|248df1d2-4023-4be8-8e02-07926f141c60|5ae67547-6b74-4359-b6e2-f2b2ddc1864a",
+        "shorting_items|106880000|90905000|522777df-cbc3-4d2b-a151-dcb37377bf81|eb3af41d-58bd-47d9-a22b-2425957b8696",
+        "shorting_items|118285000|106620000|c08654a3-3894-49ce-8734-f4cd13178774|3c2b6dfc-f667-4c43-b996-80d9c2b316fa",
+        "silk_overlap|105485000|133015000|40c5c378-9161-41c1-9cb9-7cdcd85b5222|3850cebf-8083-4f92-9f95-a397f7e1c422",
+        "silk_overlap|105485000|133015000|40c5c378-9161-41c1-9cb9-7cdcd85b5222|7f73dae6-4d4d-4a43-9645-d5219c51344b",
+        "solder_mask_bridge|105705000|106620000|c1c08b12-57f3-423c-a229-cd448e599ebc|f359599e-3361-4860-a939-f34a3e07bbf3",
+        "solder_mask_bridge|106880000|103995000|248df1d2-4023-4be8-8e02-07926f141c60|5ae67547-6b74-4359-b6e2-f2b2ddc1864a",
+        "solder_mask_bridge|106880000|90905000|522777df-cbc3-4d2b-a151-dcb37377bf81|eb3af41d-58bd-47d9-a22b-2425957b8696",
+        "solder_mask_bridge|118285000|106620000|c08654a3-3894-49ce-8734-f4cd13178774|3c2b6dfc-f667-4c43-b996-80d9c2b316fa"
+      ],
       "meta": {
         "version": 2
       },
@@ -122,8 +144,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.44999999999999996,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -170,7 +192,14 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.6,
+        0.8
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -197,7 +226,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -506,7 +544,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -536,7 +574,7 @@
           "group_by": false,
           "label": "Footprint checked",
           "name": "Footprint checked",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,

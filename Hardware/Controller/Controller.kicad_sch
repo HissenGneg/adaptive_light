@@ -7,9 +7,957 @@
 	(title_block
 		(company "Chalmers EENX16-VT24-27")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 66.04 48.26) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "018e2393-bf36-44cd-92a8-ef8106ba835a")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d4d29b6-aef4-4d8d-bf17-ec10b238df76")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10244ddf-6c10-42a1-aeed-72d7a0f11557")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 106.68 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b593455-cc47-49af-973a-f53b2ca9548e")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22176a90-c1b1-45d6-9003-bd7ca36eacaf")
+	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 64.77 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac0b197-3a03-4efb-b772-2f9238967852")
+	)
+	(wire
+		(pts
+			(xy 66.04 50.8) (xy 64.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ac48e6-4f96-4fee-9f2d-58a5a7567c0e")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 106.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330d4adb-8c4c-4998-8f71-0a188b63391a")
+	)
+	(wire
+		(pts
+			(xy 105.41 54.61) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc721b3-b1e8-4aaa-aa18-b13e312216f0")
+	)
+	(wire
+		(pts
+			(xy 138.43 52.07) (xy 139.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f83fb8b-c725-4f4b-b267-de9f1f3a7a37")
+	)
+	(wire
+		(pts
+			(xy 105.41 102.87) (xy 106.68 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c034de-0e84-4282-9490-d0fa2b9f8f52")
+	)
+	(wire
+		(pts
+			(xy 105.41 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fbd78b-5d08-4bdb-b6ab-f4f8f72a8efc")
+	)
+	(wire
+		(pts
+			(xy 64.77 96.52) (xy 66.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455f396e-921c-4932-8f21-b07bfcf07281")
+	)
+	(wire
+		(pts
+			(xy 105.41 52.07) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5027e596-d54d-4cb3-af68-510142ef62c0")
+	)
+	(wire
+		(pts
+			(xy 64.77 91.44) (xy 66.04 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53df896e-ac67-4f5e-9ffe-6d735236b4f8")
+	)
+	(wire
+		(pts
+			(xy 66.04 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a31e30-96de-48c3-aac2-9a0e858e71e7")
+	)
+	(wire
+		(pts
+			(xy 66.04 53.34) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c86e14-431f-4ec7-8582-4203a4d69080")
+	)
+	(wire
+		(pts
+			(xy 66.04 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69eeb08f-a000-4e7b-a010-aec8a1884f17")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 66.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e309c01-30b6-4ca7-b6a8-f99f156e6fd5")
+	)
+	(wire
+		(pts
+			(xy 105.41 77.47) (xy 106.68 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849d22ef-b195-4781-bd8d-8c80c66ed128")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 31.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a404f791-8ab4-490e-aecb-5b284a22fb0e")
+	)
+	(wire
+		(pts
+			(xy 105.41 69.85) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70f75cf-d170-4f04-949a-b30557168b60")
+	)
+	(wire
+		(pts
+			(xy 138.43 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72657d4-ff66-4606-b9d7-4e9eee439f2e")
+	)
+	(wire
+		(pts
+			(xy 33.02 50.8) (xy 31.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf6d888-55a9-4ab9-8200-f21d00f05c10")
+	)
+	(wire
+		(pts
+			(xy 105.41 100.33) (xy 106.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee8c83e-6124-4960-ba91-1d459aff6266")
+	)
+	(wire
+		(pts
+			(xy 64.77 88.9) (xy 66.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c57e92-deed-4ce1-ba8f-f98f463390d0")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 64.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7f4a09-6833-4b34-a2f9-8cadbb4a21c4")
+	)
+	(wire
+		(pts
+			(xy 64.77 93.98) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec2ad595-91d3-44d4-8015-78f9b3e5dae6")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 106.68 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed24dcd-c2a5-4e60-bbe4-83a6880a70fe")
+	)
+	(label "BATTERY_MONITOR"
+		(at 66.04 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08d2bbfb-6c36-4e64-abbe-8ec7c0fa5e59")
+	)
+	(label "USB_D-"
+		(at 31.75 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b286421-ea24-45b4-a57f-cd3612ff3fa3")
+	)
+	(label "BATTERY_MONITOR"
+		(at 105.41 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b72198b-02ef-4b39-9b07-684d45535faf")
+	)
+	(label "MISO"
+		(at 105.41 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10399608-6531-4eb4-9597-8159444aacd0")
+	)
+	(label "STAT1_OUT"
+		(at 105.41 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2cd7badc-c04b-4e31-bc31-2f79ab2530d8")
+	)
+	(label "~{CS}"
+		(at 66.04 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "480b84e2-3f4c-4999-955a-ba38e037f2a1")
+	)
+	(label "~{CFG1}"
+		(at 105.41 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4886306f-6885-4546-ac9b-540c9970caa1")
+	)
+	(label "USB_D-"
+		(at 139.7 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b9c8d42-e828-4335-9bcf-8e9b9d40736c")
+	)
+	(label "MOSI"
+		(at 66.04 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f1b3313-c553-44f7-9c3e-4f53ed29c592")
+	)
+	(label "~{CFG1}"
+		(at 66.04 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "558f0a45-cb72-4d6f-b688-f1aad4b88533")
+	)
+	(label "~{CS}"
+		(at 105.41 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58403f62-f973-446b-8f5e-6abf70d9d7bf")
+	)
+	(label "CFG2"
+		(at 66.04 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a28db4c-f67d-4f8e-b77c-058de1b0c435")
+	)
+	(label "VBUS_MONITOR"
+		(at 66.04 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "629c2a62-b52f-4dd5-bc5a-d5a32220caec")
+	)
+	(label "CFG2"
+		(at 105.41 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ba8d090-036a-44ee-a9c6-81be7ebb866b")
+	)
+	(label "STAT2_OUT"
+		(at 66.04 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ecec32b-4978-4c5a-899c-3961aec33912")
+	)
+	(label "CFG3"
+		(at 66.04 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "793add50-e452-49a1-8650-15ee22ca7564")
+	)
+	(label "PG"
+		(at 139.7 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f6088d2-07b5-4abb-b188-f03fb96c10d7")
+	)
+	(label "~{INT}"
+		(at 105.41 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8387dd37-44f2-44a9-90d2-98df4dcf051b")
+	)
+	(label "CFG3"
+		(at 105.41 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8761b450-e3f3-4e9f-897c-e570e775afdd")
+	)
+	(label "USB_D+"
+		(at 31.75 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9786759c-2a4d-4b11-ac25-59c65b7d91a0")
+	)
+	(label "MOSI"
+		(at 105.41 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d15a349-545f-4b3c-bf75-66805edff63a")
+	)
+	(label "USB_D+"
+		(at 139.7 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5c7160e-ec17-4aba-848b-be0c128fe0e3")
+	)
+	(label "VBUS_MONITOR"
+		(at 105.41 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3768a46-49e4-468d-9b5d-2207e8fb4f70")
+	)
+	(label "PG"
+		(at 66.04 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c981617c-ffe6-48d9-a9c2-b1f8ead1c6e5")
+	)
+	(label "STAT1_OUT"
+		(at 66.04 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e654054d-3ea6-43db-af8a-d088ffd40a3c")
+	)
+	(label "SCK"
+		(at 66.04 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f05dd4ed-9676-4dce-96e8-09798708473c")
+	)
+	(label "SCK"
+		(at 105.41 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f20e4d19-e016-4741-98a6-67cf3baa7f7e")
+	)
+	(label "MISO"
+		(at 66.04 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34d563a-5847-416d-bca1-2bcd73d2d0c5")
+	)
+	(label "STAT2_OUT"
+		(at 105.41 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f92aeec9-56d5-4bb4-a9e1-645fedb5dfbf")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2005ef6f-0423-4381-8674-4a03249502d4")
+		(property "Reference" "H102"
+			(at 160.02 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa"
+					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bf73cf4-29f1-4b42-a1e9-425f65736691")
+		(property "Reference" "H104"
+			(at 160.02 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 157.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa"
+					(reference "H104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65970054-ef05-4025-961d-dbc3cf79fc0e")
+		(property "Reference" "H101"
+			(at 160.02 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa"
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 157.48 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5d89a0c-3fd1-4bed-b4aa-fff7034495a4")
+		(property "Reference" "H103"
+			(at 160.02 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 160.02 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa"
+					(reference "H103")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 99.06 118.11)
+		(at 106.68 90.17)
 		(size 31.75 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -21,7 +969,7 @@
 		)
 		(uuid "379fa222-d154-41d1-adf6-8c1e65041048")
 		(property "Sheetname" "CAN_bus"
-			(at 99.06 117.3984 0)
+			(at 106.68 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30,7 +978,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN_bus.kicad_sch"
-			(at 99.06 133.9346 0)
+			(at 106.68 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +987,7 @@
 			)
 		)
 		(pin "~{INT}" output
-			(at 99.06 130.81 180)
+			(at 106.68 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +997,7 @@
 			(uuid "4a9cbd98-c3e2-428e-a3c8-43c0f90679ef")
 		)
 		(pin "SCK" input
-			(at 99.06 125.73 180)
+			(at 106.68 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59,7 +1007,7 @@
 			(uuid "1c15aa1b-9b6e-4779-9f81-473bf0861e38")
 		)
 		(pin "MISO" output
-			(at 99.06 120.65 180)
+			(at 106.68 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,7 +1017,7 @@
 			(uuid "0d5a36f0-d1a2-4831-98d2-131a1d9c3a61")
 		)
 		(pin "MOSI" input
-			(at 99.06 123.19 180)
+			(at 106.68 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +1027,7 @@
 			(uuid "5fcea52e-29a8-4339-9dd0-1b22eb787e0f")
 		)
 		(pin "~{CS}" input
-			(at 99.06 128.27 180)
+			(at 106.68 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,8 +1045,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 46.99)
-		(size 31.75 36.83)
+		(at 106.68 46.99)
+		(size 31.75 11.43)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -109,7 +1057,7 @@
 		)
 		(uuid "65228501-681e-424e-8fc1-d56cc57cdfa3")
 		(property "Sheetname" "USBC"
-			(at 99.06 46.2784 0)
+			(at 106.68 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -118,7 +1066,7 @@
 			)
 		)
 		(property "Sheetfile" "USBC.kicad_sch"
-			(at 99.06 84.4046 0)
+			(at 106.68 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127,7 +1075,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 130.81 49.53 0)
+			(at 138.43 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,7 +1085,7 @@
 			(uuid "6b2adb2f-fd5d-460c-9998-1a8e728d5e0d")
 		)
 		(pin "USB_D-" bidirectional
-			(at 130.81 52.07 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,18 +1094,8 @@
 			)
 			(uuid "3cd9dca2-19c8-467a-9985-117d9f650f06")
 		)
-		(pin "POWEROUT" output
-			(at 130.81 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "deb2dfe1-c8c7-4d56-9ade-99fd86caade0")
-		)
 		(pin "CFG3" input
-			(at 99.06 49.53 180)
+			(at 106.68 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +1105,7 @@
 			(uuid "03ce34f8-5026-4b54-9531-5ad9660f4973")
 		)
 		(pin "CFG2" input
-			(at 99.06 52.07 180)
+			(at 106.68 52.07 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,7 +1115,7 @@
 			(uuid "c0676be1-17e8-4b54-8d2d-59e0aff394ea")
 		)
 		(pin "~{CFG1}" input
-			(at 99.06 54.61 180)
+			(at 106.68 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -187,14 +1125,14 @@
 			(uuid "88ee783a-d897-4e8d-8970-6216ff057b27")
 		)
 		(pin "PG" output
-			(at 130.81 58.42 0)
+			(at 138.43 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "820b0c5e-3772-4467-9ebf-2c484f909978")
+			(uuid "5b0b2eb0-bb53-4a16-b78a-4665bc9d2b1b")
 		)
 		(instances
 			(project "Controller"
@@ -563,7 +1501,7 @@
 		)
 	)
 	(sheet
-		(at 99.06 93.98)
+		(at 106.68 67.31)
 		(size 31.75 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -575,7 +1513,7 @@
 		)
 		(uuid "cad10da3-6191-42e8-9b78-3bdd7678f565")
 		(property "Sheetname" "Battery"
-			(at 99.06 93.2684 0)
+			(at 106.68 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +1522,7 @@
 			)
 		)
 		(property "Sheetfile" "Battery.kicad_sch"
-			(at 99.06 109.8046 0)
+			(at 106.68 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,35 +1530,45 @@
 				(justify left top)
 			)
 		)
-		(pin "5V_EN" input
-			(at 99.06 96.52 180)
+		(pin "STAT1_OUT" output
+			(at 106.68 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0d94a67b-3199-42c4-877a-311a4738e946")
+			(uuid "43c60c92-c4cf-4a82-bbc1-3a75b8826d85")
 		)
-		(pin "STAT1" output
-			(at 130.81 96.52 0)
+		(pin "STAT2_OUT" output
+			(at 106.68 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "cb8f03b7-325d-418c-9ba5-d39501544a7f")
+			(uuid "b6f3f11d-e248-4dca-86b0-01cb643f1ab8")
 		)
-		(pin "STAT2" output
-			(at 130.81 99.06 0)
+		(pin "BATTERY_MONITOR" input
+			(at 106.68 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "bf12053e-b3af-4c8c-a384-4c519851cefd")
+			(uuid "c2dddd17-5fd6-48fc-9321-408406814ca8")
+		)
+		(pin "VBUS_MONITOR" input
+			(at 106.68 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "74b94b75-9e2b-4830-99f1-aa90cebf25d0")
 		)
 		(instances
 			(project "Controller"

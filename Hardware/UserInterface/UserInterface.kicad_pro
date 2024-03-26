@@ -62,7 +62,8 @@
         "hole_clearance|137250000|36625000|11e6adb8-01ef-4366-9c34-002c7fc5eddc|00dfe21f-3a9c-46ea-9889-26c1d1edab8c",
         "hole_clearance|137250000|36625000|11e6adb8-01ef-4366-9c34-002c7fc5eddc|2d7acb3e-744f-4251-9fd0-e9a8b87abb7e",
         "hole_clearance|143350000|36625000|206c2ef0-ba1a-485f-8dec-bd94382be1b1|4884d034-73bd-4d71-83e4-e422771b808b",
-        "hole_clearance|143350000|36625000|206c2ef0-ba1a-485f-8dec-bd94382be1b1|c60bf64e-9d33-4c06-893a-405bfd8cc17d"
+        "hole_clearance|143350000|36625000|206c2ef0-ba1a-485f-8dec-bd94382be1b1|c60bf64e-9d33-4c06-893a-405bfd8cc17d",
+        "isolated_copper|133892540|53520185|82abd8fa-529f-4c7f-8e61-50b822ed6c8c|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -135,7 +136,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.075,
         "min_via_diameter": 0.44999999999999996,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [

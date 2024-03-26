@@ -5,6 +5,9 @@
 	(uuid "e2464371-9bc4-4017-9c6e-8e683205c06f")
 	(paper "A4")
 	(title_block
+		(title "Power Management - logic voltage regulators")
+		(date "2024-03-26")
+		(rev "B01")
 		(company "Chalmers EENX16-VT24-27")
 	)
 	(lib_symbols

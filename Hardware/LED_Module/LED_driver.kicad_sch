@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LED's and drivers")
-		(date "2024-03-06")
-		(rev "A02")
+		(date "2024-03-26")
+		(rev "B02")
 		(company "Chalmers EENX16-VT24-27")
 	)
 	(lib_symbols

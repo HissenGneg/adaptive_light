@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "77cf6edf-66c9-44fc-88c2-2484e39680de")
 	(paper "A4")
+	(title_block
+		(title "CAN Bus controller + interface, and power management")
+		(date "2024-03-26")
+		(rev "A01")
+		(company "Chalmers EENX16-VT24-27")
+	)
 	(lib_symbols
 		(symbol "+BATT_1"
 			(power)

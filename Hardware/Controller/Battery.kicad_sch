@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Battery charging and power management")
-		(date "2024-03-01")
-		(rev "A02")
+		(date "2024-03-26")
+		(rev "B01")
 		(company "Chalmers EENX16-VT24-27")
 	)
 	(lib_symbols

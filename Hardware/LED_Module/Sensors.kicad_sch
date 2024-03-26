@@ -5,6 +5,9 @@
 	(uuid "70283e88-880d-4f9e-8f24-fe64f309036f")
 	(paper "A4")
 	(title_block
+		(title "Sensors - accelerometer, ambient light and status LEDs")
+		(date "2024-03-26")
+		(rev "B01")
 		(company "Chalmers EENX16-VT24-27")
 	)
 	(lib_symbols

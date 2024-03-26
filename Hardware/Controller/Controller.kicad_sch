@@ -5,6 +5,9 @@
 	(uuid "43ebced7-8538-4711-b1b5-1811dcfcbefa")
 	(paper "A4")
 	(title_block
+		(title "Illumination system controller - overview")
+		(date "2024-03-26")
+		(rev "B01")
 		(company "Chalmers EENX16-VT24-27")
 	)
 	(lib_symbols
@@ -103,7 +106,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 54.61) (xy 139.7 54.61)
+			(xy 105.41 34.29) (xy 106.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -113,7 +116,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 106.68 95.25)
+			(xy 105.41 97.79) (xy 106.68 97.79)
 		)
 		(stroke
 			(width 0)
@@ -133,7 +136,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 106.68 92.71)
+			(xy 105.41 95.25) (xy 106.68 95.25)
 		)
 		(stroke
 			(width 0)
@@ -173,7 +176,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 54.61) (xy 106.68 54.61)
+			(xy 105.41 44.45) (xy 106.68 44.45)
 		)
 		(stroke
 			(width 0)
@@ -183,7 +186,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 52.07) (xy 139.7 52.07)
+			(xy 105.41 26.67) (xy 106.68 26.67)
 		)
 		(stroke
 			(width 0)
@@ -193,7 +196,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 102.87) (xy 106.68 102.87)
+			(xy 105.41 105.41) (xy 106.68 105.41)
 		)
 		(stroke
 			(width 0)
@@ -203,7 +206,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 97.79) (xy 106.68 97.79)
+			(xy 105.41 100.33) (xy 106.68 100.33)
 		)
 		(stroke
 			(width 0)
@@ -223,7 +226,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 52.07) (xy 106.68 52.07)
+			(xy 105.41 41.91) (xy 106.68 41.91)
 		)
 		(stroke
 			(width 0)
@@ -303,6 +306,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 24.13) (xy 106.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4945118-6537-4699-9df1-3c523b39e70f")
+	)
+	(wire
+		(pts
 			(xy 105.41 69.85) (xy 106.68 69.85)
 		)
 		(stroke
@@ -310,16 +323,6 @@
 			(type default)
 		)
 		(uuid "b70f75cf-d170-4f04-949a-b30557168b60")
-	)
-	(wire
-		(pts
-			(xy 138.43 49.53) (xy 139.7 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d72657d4-ff66-4606-b9d7-4e9eee439f2e")
 	)
 	(wire
 		(pts
@@ -333,7 +336,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 100.33) (xy 106.68 100.33)
+			(xy 105.41 102.87) (xy 106.68 102.87)
 		)
 		(stroke
 			(width 0)
@@ -373,7 +376,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 49.53) (xy 106.68 49.53)
+			(xy 105.41 39.37) (xy 106.68 39.37)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +418,7 @@
 		(uuid "0b72198b-02ef-4b39-9b07-684d45535faf")
 	)
 	(label "MISO"
-		(at 105.41 92.71 180)
+		(at 105.41 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -448,7 +451,7 @@
 		(uuid "480b84e2-3f4c-4999-955a-ba38e037f2a1")
 	)
 	(label "~{CFG1}"
-		(at 105.41 54.61 180)
+		(at 105.41 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -459,13 +462,13 @@
 		(uuid "4886306f-6885-4546-ac9b-540c9970caa1")
 	)
 	(label "USB_D-"
-		(at 139.7 52.07 0)
+		(at 105.41 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4b9c8d42-e828-4335-9bcf-8e9b9d40736c")
 	)
@@ -492,7 +495,7 @@
 		(uuid "558f0a45-cb72-4d6f-b688-f1aad4b88533")
 	)
 	(label "~{CS}"
-		(at 105.41 100.33 180)
+		(at 105.41 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -525,7 +528,7 @@
 		(uuid "629c2a62-b52f-4dd5-bc5a-d5a32220caec")
 	)
 	(label "CFG2"
-		(at 105.41 52.07 180)
+		(at 105.41 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -558,18 +561,18 @@
 		(uuid "793add50-e452-49a1-8650-15ee22ca7564")
 	)
 	(label "PG"
-		(at 139.7 54.61 0)
+		(at 105.41 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7f6088d2-07b5-4abb-b188-f03fb96c10d7")
 	)
 	(label "~{INT}"
-		(at 105.41 102.87 180)
+		(at 105.41 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -580,7 +583,7 @@
 		(uuid "8387dd37-44f2-44a9-90d2-98df4dcf051b")
 	)
 	(label "CFG3"
-		(at 105.41 49.53 180)
+		(at 105.41 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -602,7 +605,7 @@
 		(uuid "9786759c-2a4d-4b11-ac25-59c65b7d91a0")
 	)
 	(label "MOSI"
-		(at 105.41 95.25 180)
+		(at 105.41 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -613,13 +616,13 @@
 		(uuid "9d15a349-545f-4b3c-bf75-66805edff63a")
 	)
 	(label "USB_D+"
-		(at 139.7 49.53 0)
+		(at 105.41 24.13 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a5c7160e-ec17-4aba-848b-be0c128fe0e3")
 	)
@@ -668,7 +671,7 @@
 		(uuid "f05dd4ed-9676-4dce-96e8-09798708473c")
 	)
 	(label "SCK"
-		(at 105.41 97.79 180)
+		(at 105.41 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -957,7 +960,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 90.17)
+		(at 106.68 92.71)
 		(size 31.75 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -969,7 +972,7 @@
 		)
 		(uuid "379fa222-d154-41d1-adf6-8c1e65041048")
 		(property "Sheetname" "CAN_bus"
-			(at 106.68 89.4584 0)
+			(at 106.68 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +981,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN_bus.kicad_sch"
-			(at 106.68 105.9946 0)
+			(at 106.68 108.5346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +990,7 @@
 			)
 		)
 		(pin "~{INT}" output
-			(at 106.68 102.87 180)
+			(at 106.68 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1000,7 @@
 			(uuid "4a9cbd98-c3e2-428e-a3c8-43c0f90679ef")
 		)
 		(pin "SCK" input
-			(at 106.68 97.79 180)
+			(at 106.68 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,7 +1010,7 @@
 			(uuid "1c15aa1b-9b6e-4779-9f81-473bf0861e38")
 		)
 		(pin "MISO" output
-			(at 106.68 92.71 180)
+			(at 106.68 95.25 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,7 +1020,7 @@
 			(uuid "0d5a36f0-d1a2-4831-98d2-131a1d9c3a61")
 		)
 		(pin "MOSI" input
-			(at 106.68 95.25 180)
+			(at 106.68 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1030,7 @@
 			(uuid "5fcea52e-29a8-4339-9dd0-1b22eb787e0f")
 		)
 		(pin "~{CS}" input
-			(at 106.68 100.33 180)
+			(at 106.68 102.87 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,8 +1048,8 @@
 		)
 	)
 	(sheet
-		(at 106.68 46.99)
-		(size 31.75 11.43)
+		(at 106.68 21.59)
+		(size 31.75 26.67)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1057,7 +1060,7 @@
 		)
 		(uuid "65228501-681e-424e-8fc1-d56cc57cdfa3")
 		(property "Sheetname" "USBC"
-			(at 106.68 46.2784 0)
+			(at 106.68 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +1069,7 @@
 			)
 		)
 		(property "Sheetfile" "USBC.kicad_sch"
-			(at 106.68 59.0046 0)
+			(at 106.68 48.8446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,27 +1078,27 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 138.43 49.53 0)
+			(at 106.68 24.13 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "6b2adb2f-fd5d-460c-9998-1a8e728d5e0d")
 		)
 		(pin "USB_D-" bidirectional
-			(at 138.43 52.07 0)
+			(at 106.68 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "3cd9dca2-19c8-467a-9985-117d9f650f06")
 		)
 		(pin "CFG3" input
-			(at 106.68 49.53 180)
+			(at 106.68 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1108,7 @@
 			(uuid "03ce34f8-5026-4b54-9531-5ad9660f4973")
 		)
 		(pin "CFG2" input
-			(at 106.68 52.07 180)
+			(at 106.68 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1118,7 @@
 			(uuid "c0676be1-17e8-4b54-8d2d-59e0aff394ea")
 		)
 		(pin "~{CFG1}" input
-			(at 106.68 54.61 180)
+			(at 106.68 44.45 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,12 +1128,12 @@
 			(uuid "88ee783a-d897-4e8d-8970-6216ff057b27")
 		)
 		(pin "PG" output
-			(at 138.43 54.61 0)
+			(at 106.68 34.29 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "5b0b2eb0-bb53-4a16-b78a-4665bc9d2b1b")
 		)
@@ -1144,7 +1147,7 @@
 	)
 	(sheet
 		(at 33.02 45.72)
-		(size 31.75 87.63)
+		(size 31.75 80.01)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1164,7 +1167,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 33.02 133.9346 0)
+			(at 33.02 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)

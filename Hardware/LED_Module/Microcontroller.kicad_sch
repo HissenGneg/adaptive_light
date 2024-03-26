@@ -7307,136 +7307,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 44.45 148.59 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51501896-e6d8-4e94-855f-f113caa1f1f6")
-		(property "Reference" "Y401"
-			(at 44.45 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12M"
-			(at 44.45 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/3/abm3b-1774998.pdf"
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "815-ABM3B1210B1UT"
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ETA" ""
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REASON" "ABM3B-12.000MHZ-10-B-1-U-T  is not sold at RS or elfa"
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS-COMPONENTS" ""
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint checked" "YES"
-			(at 44.45 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24d2791f-73af-4318-882b-640eddd33bed")
-		)
-		(pin "2"
-			(uuid "1eb07c6b-5c0e-4fa9-b11d-84d274978049")
-		)
-		(pin "4"
-			(uuid "f5c56811-bde1-4c65-9d22-c0f97cfc7039")
-		)
-		(pin "3"
-			(uuid "b161206a-f1b5-4156-b420-048f6bd70596")
-		)
-		(instances
-			(project "LED_Module"
-				(path "/16808901-367a-4ed1-b5c3-f1221533388f/491ba666-eea9-4d2d-9b48-12ddc2954e77"
-					(reference "Y401")
-					(unit 1)
-				)
-			)
-			(project "Ficklampa"
-				(path "/ddeb2498-781c-4bfa-9a76-a6e5959b49e0"
-					(reference "Y101")
-					(unit 1)
-				)
-			)
-			(project "JBCock"
-				(path "/e866f8fb-0ce5-4a7b-98ed-8451088f137a"
-					(reference "Y101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 208.28 100.33 0)
 		(unit 1)
@@ -8042,6 +7912,124 @@
 			(project "JBCock"
 				(path "/e866f8fb-0ce5-4a7b-98ed-8451088f137a"
 					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 44.45 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70ff42ab-f051-4764-a131-d831b8e08853")
+		(property "Reference" "Y401"
+			(at 44.45 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12M"
+			(at 44.45 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/122/ECX_2236Q-938171.pdf"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "520-120-10-36Q-AEST"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ETA" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REASON" "ABM3B-12.000MHZ-10-B-1-U-T  is not sold at RS or elfa"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS-COMPONENTS" ""
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint checked" "YES"
+			(at 44.45 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7fda20f-54b3-4067-974c-bf6dda492996")
+		)
+		(pin "2"
+			(uuid "0f5526a7-ffc0-4b5b-a129-2d4ee684b88c")
+		)
+		(pin "4"
+			(uuid "044dca3d-be0a-4889-9edd-9e5ae1fdb520")
+		)
+		(pin "3"
+			(uuid "b19e04d7-5e9b-4a5d-bcff-fa19e6a1555c")
+		)
+		(instances
+			(project "LED_Module"
+				(path "/16808901-367a-4ed1-b5c3-f1221533388f/491ba666-eea9-4d2d-9b48-12ddc2954e77"
+					(reference "Y401")
 					(unit 1)
 				)
 			)

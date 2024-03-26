@@ -7606,7 +7606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -7615,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/3/abm3b-1774998.pdf"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/122/ECX_2236Q-938171.pdf"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -7633,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" "815-ABM3B1210B1UT"
+		(property "mouser" "520-120-10-36Q-AEST"
 			(at 46.99 149.86 0)
 			(effects
 				(font

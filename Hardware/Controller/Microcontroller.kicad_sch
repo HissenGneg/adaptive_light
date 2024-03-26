@@ -6567,124 +6567,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_GND24")
-		(at 38.1 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b376fd32-0005-4c1b-89c2-e6832a991c1e")
-		(property "Reference" "Y201"
-			(at 38.1 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12M"
-			(at 38.1 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/3/abm3b-1774998.pdf"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "815-ABM3B1210B1UT"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ETA" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REASON" "ABM3B-12.000MHZ-10-B-1-U-T  is not sold at RS or elfa"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS-COMPONENTS" ""
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint checked" "YES"
-			(at 38.1 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45146917-01a6-4fb7-8a6a-59bbc49ab428")
-		)
-		(pin "2"
-			(uuid "43367618-1134-4beb-bcf9-2d547fe0dd64")
-		)
-		(pin "4"
-			(uuid "517c0a88-76b7-4318-a504-d2e9b9299882")
-		)
-		(pin "3"
-			(uuid "641739ce-d60d-4a6c-9f11-2189052e118d")
-		)
-		(instances
-			(project "Controller"
-				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/a41632f7-ca6e-440e-a005-2089204e1c4a"
-					(reference "Y201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 238.76 33.02 0)
 		(unit 1)
@@ -6983,6 +6865,124 @@
 			(project "Controller"
 				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/a41632f7-ca6e-440e-a005-2089204e1c4a"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 38.1 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb385dc2-f287-4d4b-a595-d3f2357937e2")
+		(property "Reference" "Y201"
+			(at 38.1 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12M"
+			(at 38.1 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/122/ECX_2236Q-938171.pdf"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "520-120-10-36Q-AEST"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ETA" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REASON" "ABM3B-12.000MHZ-10-B-1-U-T  is not sold at RS or elfa"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS-COMPONENTS" ""
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint checked" "YES"
+			(at 38.1 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cdbf094-1dcd-4649-bd78-4c444672d8a7")
+		)
+		(pin "2"
+			(uuid "274b2b07-03b3-4d3c-9eac-64b4918f73f8")
+		)
+		(pin "4"
+			(uuid "b6fddc66-e573-4b91-bb32-0899bb95dede")
+		)
+		(pin "3"
+			(uuid "42ec5e9b-397a-44cb-bd0f-f6f47b782ac0")
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/a41632f7-ca6e-440e-a005-2089204e1c4a"
+					(reference "Y201")
 					(unit 1)
 				)
 			)

@@ -4011,7 +4011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+		(property "Footprint" "Package_SO:PowerPAK_SO-8_Single"
 			(at 209.55 43.815 0)
 			(effects
 				(font

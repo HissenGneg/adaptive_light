@@ -6764,6 +6764,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 86.36) (xy 147.32 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4949acb7-46ab-4cca-8144-f51f938c8a52")
+	)
+	(wire
+		(pts
 			(xy 172.72 160.02) (xy 173.99 160.02)
 		)
 		(stroke
@@ -6881,16 +6891,6 @@
 			(type default)
 		)
 		(uuid "56cd45d6-dd8f-4a48-b7ab-200441780d14")
-	)
-	(wire
-		(pts
-			(xy 132.08 86.36) (xy 147.32 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "581053be-1a8f-40e1-ad7e-cf1416b70e78")
 	)
 	(wire
 		(pts
@@ -12112,7 +12112,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4c4ea1d4-d4f4-4f63-88f3-dc22fdce719f")
 		(property "Reference" "Q401"
 			(at 135.89 78.1049 0)

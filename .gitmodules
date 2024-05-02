@@ -1,0 +1,6 @@
+[submodule "Software/User-Interface/pico-ssd1306"]
+	path = Software/User-Interface/pico-ssd1306
+	url = https://github.com/daschr/pico-ssd1306.git
+[submodule "Software/User-Interface/lib/pico-ssd1306"]
+	path = Software/User-Interface/lib/pico-ssd1306
+	url = https://github.com/daschr/pico-ssd1306.git

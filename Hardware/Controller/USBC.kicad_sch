@@ -837,290 +837,6 @@
 				)
 			)
 		)
-		(symbol "Device:Q_NMOS_GSD"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_GSD"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, gate/source/drain"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_GSD_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NMOS_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1847,12 +1563,6 @@
 		(uuid "09cfb6fe-a20d-42ab-86c2-1df7e53cfaea")
 	)
 	(junction
-		(at 149.86 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15edacdf-401f-4019-bf17-c50bba746f56")
-	)
-	(junction
 		(at 115.57 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1871,22 +1581,10 @@
 		(uuid "67c4ca41-855e-44ea-8e5f-65dc55d1e3b0")
 	)
 	(junction
-		(at 158.75 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e91971e-e53d-45b7-bf43-ca4edd9a922e")
-	)
-	(junction
 		(at 173.99 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c9cf1c6-422a-4384-8ca3-dd55d4df8533")
-	)
-	(junction
-		(at 149.86 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2c0f870-2857-40f5-b535-6d468cdc7e3f")
 	)
 	(junction
 		(at 123.19 30.48)
@@ -1936,6 +1634,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 73.66) (xy 129.54 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fbc578-5800-4832-92b0-2dc6a84da308")
+	)
+	(wire
+		(pts
 			(xy 59.69 43.18) (xy 59.69 45.72)
 		)
 		(stroke
@@ -1956,7 +1664,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 68.58) (xy 149.86 68.58)
+			(xy 129.54 68.58) (xy 147.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1976,6 +1684,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 68.58) (xy 147.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edd23a6-5283-45b7-be32-5073541689a7")
+	)
+	(wire
+		(pts
 			(xy 107.95 71.12) (xy 106.68 71.12)
 		)
 		(stroke
@@ -1983,26 +1701,6 @@
 			(type default)
 		)
 		(uuid "27702f2d-4043-49d1-b1ea-559fed10351c")
-	)
-	(wire
-		(pts
-			(xy 149.86 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2972a427-557d-4efb-b008-9025b2e39d53")
-	)
-	(wire
-		(pts
-			(xy 149.86 68.58) (xy 149.86 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e8c89e-360c-4d4d-8212-45774a193c29")
 	)
 	(wire
 		(pts
@@ -2023,26 +1721,6 @@
 			(type default)
 		)
 		(uuid "344bd7cd-113d-449c-a455-2cdeac632158")
-	)
-	(wire
-		(pts
-			(xy 158.75 80.01) (xy 162.56 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36145429-1355-4aa7-b2eb-8ea8623cc3c3")
-	)
-	(wire
-		(pts
-			(xy 149.86 88.9) (xy 149.86 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46711517-e897-4ac8-b20c-34b6a29de954")
 	)
 	(wire
 		(pts
@@ -2076,13 +1754,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 71.12) (xy 162.56 71.12)
+			(xy 129.54 71.12) (xy 149.86 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70acfea4-1668-40e4-8701-00a315eabc30")
+		(uuid "5f124f44-e481-42e8-b9d7-966a2c243b2f")
 	)
 	(wire
 		(pts
@@ -2126,6 +1804,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 67.31) (xy 149.86 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e27134-3c83-460c-9b76-ee4aec772af0")
+	)
+	(wire
+		(pts
 			(xy 133.35 57.15) (xy 133.35 60.96)
 		)
 		(stroke
@@ -2156,13 +1844,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 158.75 80.01)
+			(xy 138.43 74.93) (xy 138.43 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abe442ee-7d24-4ec4-81a0-87bac00a8f8f")
+		(uuid "ac5ba5bd-97fe-4a42-bb24-6e6b913f3ba1")
 	)
 	(wire
 		(pts
@@ -2173,16 +1861,6 @@
 			(type default)
 		)
 		(uuid "b32e7c9d-e5af-4b03-9c00-f13454450ad5")
-	)
-	(wire
-		(pts
-			(xy 129.54 73.66) (xy 162.56 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7e1ff29-3d2b-4bb9-886f-4078e2b1cc7b")
 	)
 	(wire
 		(pts
@@ -2223,16 +1901,6 @@
 			(type default)
 		)
 		(uuid "e3a3cd9f-8477-4cd9-99da-6070c5db721d")
-	)
-	(wire
-		(pts
-			(xy 149.86 87.63) (xy 149.86 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaaa44a8-9fc0-4927-928f-346a2acf6e2e")
 	)
 	(wire
 		(pts
@@ -2319,7 +1987,7 @@
 		(uuid "718c5488-ab22-413f-94c1-1b18a8179c1b")
 	)
 	(label "VDDCH"
-		(at 149.86 60.96 0)
+		(at 149.86 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2364,18 +2032,6 @@
 		)
 		(uuid "278dc658-1b2b-4c1d-949b-e6bdfbe6d2fe")
 	)
-	(hierarchical_label "CFG3"
-		(shape input)
-		(at 162.56 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "316ce653-a24b-4c7f-8e19-6e1284efaddd")
-	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
 		(at 59.69 44.45 0)
@@ -2387,30 +2043,6 @@
 			(justify left)
 		)
 		(uuid "7a91aade-ec12-4975-a69f-f79e556a7243")
-	)
-	(hierarchical_label "CFG2"
-		(shape input)
-		(at 162.56 71.12 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "89bc25e8-cd44-4819-8d65-aa913d13040f")
-	)
-	(hierarchical_label "~{CFG1}"
-		(shape input)
-		(at 162.56 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8d7033f-964f-4fca-9612-b3e2b1ee50dd")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -2472,97 +2104,6 @@
 			(project "Controller"
 				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
 					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GSD")
-		(at 152.4 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1e345a3b-4c04-4117-a581-1e75e4039e54")
-		(property "Reference" "Q301"
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 147.32 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ETA-NMOS"
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" ""
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ETA" "ETA"
-			(at 152.4 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1d7d552-1a9b-49a0-bdf2-9e326e680088")
-		)
-		(pin "3"
-			(uuid "4b2e51fa-97b3-4449-8511-c6400ea39774")
-		)
-		(pin "2"
-			(uuid "d3bc4fb5-be47-4468-952b-8544759081bd")
-		)
-		(instances
-			(project "Controller"
-				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
-					(reference "Q301")
 					(unit 1)
 				)
 			)
@@ -2900,6 +2441,84 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 138.43 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50864fdb-5b0e-4a25-ac91-f2df5dbe1bf9")
+		(property "Reference" "R305"
+			(at 139.446 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.446 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 136.652 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?28773"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "71-CRCW040210K0JNEDC"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c7a7fef-1ef9-4cd3-ba3b-f0caf0abd335")
+		)
+		(pin "1"
+			(uuid "b9950821-ee00-4520-ac6a-c5b342328e10")
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
+					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 123.19 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2971,84 +2590,6 @@
 			(project "Controller"
 				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
 					(reference "R302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 158.75 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60ed21e6-28aa-4d0f-bf27-934b776cff98")
-		(property "Reference" "R305"
-			(at 159.766 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 159.766 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.972 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser" "71-CRCW040210K0JNEDC"
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "918405dd-a802-4ecc-9b79-4ca83a42a70b")
-		)
-		(pin "1"
-			(uuid "38a9dde2-e8a7-4498-9580-3ac170536b92")
-		)
-		(instances
-			(project "Controller"
-				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
-					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -3134,7 +2675,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 149.86 64.77 0)
+		(at 149.86 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3142,7 +2683,7 @@
 		(dnp no)
 		(uuid "75b688a2-e0d6-4589-82b4-77da1da038bc")
 		(property "Reference" "R304"
-			(at 151.13 63.5 0)
+			(at 151.13 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +2692,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 66.04 0)
+			(at 151.13 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +2701,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.082 64.77 90)
+			(at 148.082 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +2710,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?28773"
-			(at 149.86 64.77 0)
+			(at 149.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +2719,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 64.77 0)
+			(at 149.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +2728,7 @@
 			)
 		)
 		(property "mouser" "71-CRCW040210K0JNEDC"
-			(at 149.86 64.77 0)
+			(at 149.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,18 +3274,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 149.86 88.9 0)
-		(mirror y)
+		(lib_id "Device:R")
+		(at 147.32 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2c8de8e-464f-4fa7-a0e2-c73245941319")
-		(property "Reference" "#PWR0307"
-			(at 149.86 95.25 0)
+		(uuid "d4685685-ddf9-4204-80f3-60ce601051d7")
+		(property "Reference" "R306"
+			(at 148.336 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 148.336 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 145.542 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3752,25 +3309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 149.86 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 88.9 0)
+		(property "Datasheet" "https://www.vishay.com/doc?28773"
+			(at 147.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3319,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 88.9 0)
+			(at 147.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,13 +3327,25 @@
 				(hide yes)
 			)
 		)
+		(property "mouser" "71-CRCW040210K0JNEDC"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "317b6f40-a25b-4278-83c6-4072a5780254")
+		)
 		(pin "1"
-			(uuid "09485d42-bd3d-44b8-aa80-7891967af9b4")
+			(uuid "1fea94a8-b0e8-4f22-8947-2c235dd3a234")
 		)
 		(instances
 			(project "Controller"
 				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
-					(reference "#PWR0307")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -3860,6 +3412,138 @@
 			(project "Controller"
 				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
 					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8d608b6-82b2-45ce-a864-2a02933fbed8")
+		(property "Reference" "#PWR0308"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "febb3057-c9ba-4254-9f7e-2e424c541d92")
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b6b7cb-340e-434a-8237-6c448fd6c998")
+		(property "Reference" "#PWR0307"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9255ed5d-f8a8-4289-af3d-7021a40a0350")
+		)
+		(instances
+			(project "Controller"
+				(path "/43ebced7-8538-4711-b1b5-1811dcfcbefa/65228501-681e-424e-8fc1-d56cc57cdfa3"
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)

@@ -96,16 +96,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 48.26) (xy 64.77 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "018e2393-bf36-44cd-92a8-ef8106ba835a")
-	)
-	(wire
-		(pts
 			(xy 105.41 34.29) (xy 106.68 34.29)
 		)
 		(stroke
@@ -156,16 +146,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 50.8) (xy 64.77 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ac48e6-4f96-4fee-9f2d-58a5a7567c0e")
-	)
-	(wire
-		(pts
 			(xy 105.41 72.39) (xy 106.68 72.39)
 		)
 		(stroke
@@ -173,16 +153,6 @@
 			(type default)
 		)
 		(uuid "330d4adb-8c4c-4998-8f71-0a188b63391a")
-	)
-	(wire
-		(pts
-			(xy 105.41 44.45) (xy 106.68 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc721b3-b1e8-4aaa-aa18-b13e312216f0")
 	)
 	(wire
 		(pts
@@ -226,16 +196,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 41.91) (xy 106.68 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5027e596-d54d-4cb3-af68-510142ef62c0")
-	)
-	(wire
-		(pts
 			(xy 64.77 91.44) (xy 66.04 91.44)
 		)
 		(stroke
@@ -253,16 +213,6 @@
 			(type default)
 		)
 		(uuid "54a31e30-96de-48c3-aac2-9a0e858e71e7")
-	)
-	(wire
-		(pts
-			(xy 66.04 53.34) (xy 64.77 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c86e14-431f-4ec7-8582-4203a4d69080")
 	)
 	(wire
 		(pts
@@ -374,16 +324,6 @@
 		)
 		(uuid "ec2ad595-91d3-44d4-8015-78f9b3e5dae6")
 	)
-	(wire
-		(pts
-			(xy 105.41 39.37) (xy 106.68 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed24dcd-c2a5-4e60-bbe4-83a6880a70fe")
-	)
 	(label "BATTERY_MONITOR"
 		(at 66.04 118.11 0)
 		(fields_autoplaced yes)
@@ -450,17 +390,6 @@
 		)
 		(uuid "480b84e2-3f4c-4999-955a-ba38e037f2a1")
 	)
-	(label "~{CFG1}"
-		(at 105.41 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4886306f-6885-4546-ac9b-540c9970caa1")
-	)
 	(label "USB_D-"
 		(at 105.41 26.67 180)
 		(fields_autoplaced yes)
@@ -483,17 +412,6 @@
 		)
 		(uuid "4f1b3313-c553-44f7-9c3e-4f53ed29c592")
 	)
-	(label "~{CFG1}"
-		(at 66.04 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "558f0a45-cb72-4d6f-b688-f1aad4b88533")
-	)
 	(label "~{CS}"
 		(at 105.41 102.87 180)
 		(fields_autoplaced yes)
@@ -504,17 +422,6 @@
 			(justify right bottom)
 		)
 		(uuid "58403f62-f973-446b-8f5e-6abf70d9d7bf")
-	)
-	(label "CFG2"
-		(at 66.04 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a28db4c-f67d-4f8e-b77c-058de1b0c435")
 	)
 	(label "VBUS_MONITOR"
 		(at 66.04 115.57 0)
@@ -527,17 +434,6 @@
 		)
 		(uuid "629c2a62-b52f-4dd5-bc5a-d5a32220caec")
 	)
-	(label "CFG2"
-		(at 105.41 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ba8d090-036a-44ee-a9c6-81be7ebb866b")
-	)
 	(label "STAT2_OUT"
 		(at 66.04 76.2 0)
 		(fields_autoplaced yes)
@@ -548,17 +444,6 @@
 			(justify left bottom)
 		)
 		(uuid "6ecec32b-4978-4c5a-899c-3961aec33912")
-	)
-	(label "CFG3"
-		(at 66.04 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "793add50-e452-49a1-8650-15ee22ca7564")
 	)
 	(label "PG"
 		(at 105.41 34.29 180)
@@ -581,17 +466,6 @@
 			(justify right bottom)
 		)
 		(uuid "8387dd37-44f2-44a9-90d2-98df4dcf051b")
-	)
-	(label "CFG3"
-		(at 105.41 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8761b450-e3f3-4e9f-897c-e570e775afdd")
 	)
 	(label "USB_D+"
 		(at 31.75 50.8 180)
@@ -1096,36 +970,6 @@
 				(justify left)
 			)
 			(uuid "3cd9dca2-19c8-467a-9985-117d9f650f06")
-		)
-		(pin "CFG3" input
-			(at 106.68 39.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "03ce34f8-5026-4b54-9531-5ad9660f4973")
-		)
-		(pin "CFG2" input
-			(at 106.68 41.91 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c0676be1-17e8-4b54-8d2d-59e0aff394ea")
-		)
-		(pin "~{CFG1}" input
-			(at 106.68 44.45 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "88ee783a-d897-4e8d-8970-6216ff057b27")
 		)
 		(pin "PG" output
 			(at 106.68 34.29 180)

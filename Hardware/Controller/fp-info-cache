@@ -1,4 +1,4 @@
-23046282706793445
+23056553637009683
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94402,6 +94402,34 @@ SOIC-10
 10
 10
 personal
+BGA-6_2x3_1.0x1.5mm
+
+
+0
+8
+8
+personal
+CPH3225A
+
+
+0
+2
+2
+personal
+DFN3820A
+
+
+0
+3
+2
+personal
+MAX19777_WLCSP-8
+
+
+0
+8
+8
+personal
 QFN-36_9.6x14_Pitch1mm
 
 
@@ -94415,3 +94443,17 @@ SMD Shunt Resistor
 0
 4
 4
+personal
+SR4G053
+
+
+0
+6
+1
+personal
+VSON-8_3.3x3.3mm_P0.65mm_NexFET_not_very_fucking_stupid_as_original
+8-Lead Plastic Dual Flat, No Lead Package (MF) - 3.3x3.3x1 mm Body [VSON] http://www.ti.com/lit/ds/symlink/csd87334q3d.pdf
+VSON 0.65
+0
+9
+5

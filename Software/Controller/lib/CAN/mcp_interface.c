@@ -19,7 +19,7 @@ void mcp_spi_init(uint MOSI, uint MISO, uint SCK, uint CS, spi_inst_t *spi_insta
     spi_port = spi_instance;
     gpio_CS = CS;
 
-    spi_init(spi_port, 1e6);
+    spi_init(spi_port, 8e6);
 }
 bool mcp_was_message_aborted(uint8_t buf_id)
 {

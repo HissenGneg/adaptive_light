@@ -25,7 +25,7 @@ float get_light_reading_average()
         return light_readings[0];
 
     float total = 0;
-    size_t average_count= (light_readings_index < N_LIGHT_READINGS) ? N_LIGHT_READINGS : light_readings_index;
+    size_t average_count= (light_readings_index < N_LIGHT_READINGS) ? light_readings_index:N_LIGHT_READINGS;
     for (size_t i = 0; i < average_count; i += 1)
     {
         total += light_readings[i];
@@ -38,21 +38,24 @@ void update_lights()
     turn_signal_timer_cnt += 1;
     bool turn_signal_state = (turn_signal_timer_cnt % 10) < 5;
 
-    uint8_t adjustment = current_config.brightness_adjustment;
+    float adjustment = current_config.brightness_adjustment-128;
     float average = get_light_reading_average();
+    float white=100-0.2*average+adjustment/2;
+    printf("Adjust: %hhu, white=%f\n", current_config.brightness_adjustment,white);
+    if(white<0)
+        white=0;
+    if(white>128)
+        white=128;
 
-    uint8_t white_brightness = 0;
-    uint8_t amber_brightness = 100;
-    uint8_t red_brightness = 0;
-
-     //if(average<2048)
-     //    white_brightness=128;
-     //else if (average < 4096)
-     //    white_brightness = 64;
-     //else if(average<8192)
-     //    white_brightness=32;
-     //else
-         white_brightness = 0;
+    float amber=28-0.1*average;
+    if(amber>128)
+        amber=128;
+    if(amber<32)
+        amber=32;
+    
+    uint8_t white_brightness = white;
+    uint8_t amber_brightness = amber;
+    uint8_t red_brightness = white/2;
 
     can_msg_t msg;
     msg.id = CAN_ID_MASTER;
@@ -69,13 +72,14 @@ void update_lights()
         msg.data[CAN_SETLAMP_FIELD_WHITE] = LEDS[i].position.is_front ? white_brightness : 0;
 
         uint8_t amber = 0;
-        if (position_data->can_indicate_turn)
+        if (LEDS[i].position.can_indicate_turn)
         {
             bool canUpdate= ((position_data->is_left&&(current_turn&TURN_LEFT))||(position_data->is_right&&(current_turn&TURN_RIGHT)));
             amber = canUpdate ? (turn_signal_state ? amber_brightness : 0) : 0;
         }
-        msg.data[CAN_SETLAMP_FIELD_RED] = 0; // R
+        msg.data[CAN_SETLAMP_FIELD_RED] = (current_turn!=TURN_NONE)? 0 : LEDS[i].position.is_front?0:red_brightness; // R
         msg.data[CAN_SETLAMP_FIELD_AMBER] = amber;
+        
         while (!can_send_message(&msg))
             ;
         sleep_ms(10);

@@ -2,7 +2,7 @@
 #define __CONFIG_H
 
 #define CAN_ID_MASTER           0
-#define CAN_ID_USER_INTERFACE   1
+#define CAN_ID_USER_INTERFACE   32
 #define CAN_ID_LED_1            2
 #define CAN_ID_LED_2            4
 #define CAN_ID_LED_3            8

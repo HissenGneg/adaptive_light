@@ -7,8 +7,8 @@
 #include "common.h"
 
 
-#define N_LIGHT_READINGS 32
+#define N_LIGHT_READINGS 64
 void add_light_reading(uint16_t reading);
 void update_lights();
-
+float get_light_reading_average();
 #endif

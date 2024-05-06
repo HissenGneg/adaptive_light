@@ -42,7 +42,7 @@ void msg_handle_lamp(can_msg_t *msg)
 
     curr_led_module->last_rx = time_us_64();
     curr_led_module->healthy = true;
-    
+
     add_light_reading(curr_led_module->light_level);
 }
 
@@ -62,7 +62,7 @@ void msg_handle_user_interface(can_msg_t *msg)
 
     current_turn = msg->data[CAN_POLL_ANSWER_UI_FIELD_TURNSIGNAL];
     current_config.brightness_adjustment = msg->data[CAN_POLL_ANSWER_UI_FIELD_BRIGHTNESSADJUST];
-    printf("Turn: %hhx\n", current_turn);
+    printf("Adjust: %hhu\n", current_config.brightness_adjustment);
     //set_led_position_data(&LEDS[0].position, (msg->data[CAN_POLL_ANSWER_UI_FIELD_LIGHT_POS_1]) >> 4);
     //set_led_position_data(&LEDS[1].position, (msg->data[CAN_POLL_ANSWER_UI_FIELD_LIGHT_POS_1]) & 0x0F);
     //set_led_position_data(&LEDS[2].position, (msg->data[CAN_POLL_ANSWER_UI_FIELD_LIGHT_POS_2]) >> 4);
@@ -88,7 +88,13 @@ void can_tx()
     case 0: // broadcast
         txmsg.data[CAN_BROADCAST_FIELD_MSGTYPE] = CAN_MSG_TYPE_BROADCAST;
         adc_select_input(1); 
-        txmsg.data[CAN_BROADCAST_FIELD_BATT_VOLTAGE] = (10*(float)adc_read()*0.0090585);    // battery level
+        float battery_avg=0;
+        for (size_t i = 0; i < 128; i++)
+        {
+            battery_avg+=(10*(float)adc_read()*0.0090585);
+        }
+        
+        txmsg.data[CAN_BROADCAST_FIELD_BATT_VOLTAGE] = battery_avg/128;    // battery level
         txmsg.data[CAN_BROADCAST_FIELD_IS_CHARGING] = 0;                                    //Charging not working
         txmsg.length = CAN_BROADCAST_LENGTH;
         break;
@@ -168,7 +174,7 @@ bool can_tx_timer_task(struct repeating_timer *t)
 void core1_task()
 {
     struct repeating_timer tx_timer;
-    add_repeating_timer_ms(100, can_tx_timer_task, NULL, &tx_timer);
+    add_repeating_timer_ms(10, can_tx_timer_task, NULL, &tx_timer);
 
     can_msg_t msg;
     while (true)
@@ -234,11 +240,13 @@ int main()
 
     while (true)
     {
-        //current_turn=TURN_LEFT;
-        //sleep_ms(2000);
-        //current_turn=TURN_RIGHT;
-        //sleep_ms(2000);
-        //current_turn=PARK_ANYWHERE_YOU_WANT;
+        if(((float)adc_read()*0.0090585)<20) // Battery undervoltage protection. Disconnect everything if voltage drops below 20V
+            gpio_put(GP_POWER_OUT_EN,0);
+        else
+        {
+            gpio_put(GP_POWER_OUT_EN,1);
+        }
         sleep_ms(2000);
+
     }
 }

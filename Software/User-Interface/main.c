@@ -27,47 +27,11 @@ uint16_t get_joystick_y()
 }
 
 #define DEBOUNCE_TIME_US 50000
-bool btn_left_clicked=false;
-bool btn_right_clicked=false;
-bool btn_vr_clicked=false;
-time_t last_btn_left=0;
-time_t last_btn_right=0;
-time_t last_vr_btn=0;
 
 ssd1306_t disp;
 
 float battery_voltage=0;
-
-void gpio_irq_callback(uint gpio, uint32_t events)
-{
-    switch (gpio)
-    {
-    case GP_BTN_LEFT:
-        if(time_us_64()-last_btn_left>DEBOUNCE_TIME_US)
-        {
-            last_btn_left=time_us_64();
-            btn_left_clicked=true;
-        }
-        break;
-    case GP_BTN_RIGHT:
-        if(time_us_64()-last_btn_right>DEBOUNCE_TIME_US)
-        {
-            last_btn_right=time_us_64();
-            btn_right_clicked=true;
-        }
-        break;
-    case GP_VR_BTN:
-        if(time_us_64()-last_vr_btn>DEBOUNCE_TIME_US)
-        {
-            last_vr_btn=time_us_64();
-            btn_vr_clicked=true;
-        }
-        break;
-    
-    default:
-        break;
-    }
-}
+uint8_t brightness_adjust=128;
 
 void init()
 {
@@ -80,7 +44,6 @@ void init()
     gpio_set_function(GP_SDA, GPIO_FUNC_I2C);
 
     ssd1306_init(&disp, 128, 32, 0x3C, i2c0);
-    ssd1306_invert(&disp,true);
     ssd1306_clear(&disp);
 
     can_init(GP_MOSI, GP_MISO, GP_SCK, GP_CSn,SPI_PORT);
@@ -96,10 +59,6 @@ void init()
     gpio_set_pulls(GP_BTN_LEFT, true, false);
     gpio_set_pulls(GP_BTN_RIGHT, true, false);
     gpio_set_pulls(GP_VR_BTN, true, false);
-
-    gpio_set_irq_enabled_with_callback(GP_BTN_LEFT, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_callback);
-    gpio_set_irq_enabled_with_callback(GP_BTN_RIGHT, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_callback);
-    gpio_set_irq_enabled_with_callback(GP_VR_BTN, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_callback);
 }
 typedef enum
 {
@@ -113,7 +72,6 @@ turn_enum current_turn=TURN_NONE;
 
 void reply_poll()
 {
-//[turn signal][global brightness][light positions]
     can_msg_t msg;
     msg.id=CAN_ID_USER_INTERFACE;
     msg.remote_frame=false;
@@ -125,7 +83,7 @@ void reply_poll()
     //set_led_position_data(&LEDS[2].position, (msg->data[4]) >> 4);
     //set_led_position_data(&LEDS[3].position, (msg->data[4]) & 0x0F);
 
-    msg.data[2]=128;
+    msg.data[2]=brightness_adjust;
     msg.data[3]=0;
     msg.data[4]=0;
     msg.length=5;
@@ -134,14 +92,9 @@ void reply_poll()
 
 void process_broadcast(can_msg_t* msg)
 {
-    //[Battery voltage][is charging]
-    //adc_read() >> 4
-    //0->0V
-    //255->3.3V
-    //33V
-    //printf("SKRRT %hhu\n", msg->data[1]);
     battery_voltage=((float)(msg->data[1]))*(0.1f);
 }
+
 uint32_t left_counter=0;
 uint32_t right_counter=0;
 
@@ -158,12 +111,12 @@ void process_turn(bool falling)
         if(left_counter>50&&left_counter<1000)
         {
             current_turn=TURN_LEFT;
-            add_alarm_in_ms(3000, turn_reset_callback, NULL, false);
+            add_alarm_in_ms(4000, turn_reset_callback, NULL, false);
         }
         if(right_counter>50&&right_counter<1000)
         {
             current_turn=TURN_RIGHT;
-            add_alarm_in_ms(3000, turn_reset_callback, NULL, false);
+            add_alarm_in_ms(4000, turn_reset_callback, NULL, false);
         }
         if(left_counter>1000||right_counter>1000)
             current_turn=TURN_NONE;
@@ -192,7 +145,6 @@ void core1_task()
             if(msg.data[1]==CAN_ID_USER_INTERFACE)
             {
                 reply_poll(&msg);
-                printf("AAAAAAAA\n");
             }
                 break;
             case 0x02:
@@ -217,6 +169,19 @@ void core1_task()
             right_counter=0;
         }
         process_turn(false);
+
+        if(get_joystick_y()<1024)
+        {
+            if(brightness_adjust>10)
+                brightness_adjust-=1;
+            sleep_ms(20);
+        }
+        else if(get_joystick_y()>3072)
+        {
+            if(brightness_adjust<245)
+                brightness_adjust+=1;
+            sleep_ms(20);
+        }
     }
 }
 
@@ -231,9 +196,27 @@ int main()
     
     while (true)
     {
-        sprintf(disp_msg, "Batt: %.1f",battery_voltage);
-        //sprintf(disp_msg,"BTN: %s",gpio_get(GP_BTN_LEFT)?gpio_get(GP_BTN_RIGHT)?"X":"R":"L");
-        ssd1306_draw_string(&disp, 8, 8, 2, disp_msg);
+        float percent_left=-2.319*battery_voltage*battery_voltage*battery_voltage + 158.9*battery_voltage*battery_voltage- 3593*battery_voltage + 2.684e+04;
+        if(percent_left>100)
+            percent_left=100;
+        if(percent_left<0)
+            percent_left=0;
+        if(battery_voltage>=25)
+            percent_left=100;
+        if(battery_voltage<20)
+            percent_left=0;
+        ssd1306_draw_square(&disp,14,8,percent_left,16);
+        ssd1306_draw_empty_square(&disp, 14,8,100,16);
+
+        ssd1306_draw_square(&disp,14,25,(float)brightness_adjust*(100.0f/256.0f),6);
+        ssd1306_draw_empty_square(&disp, 14,25,100,6);
+        
+        if(brightness_adjust<128)
+            ssd1306_draw_line(&disp,64,25,64,31);
+        if(brightness_adjust>128)
+            ssd1306_clear_line(&disp,64,26,64,30);
+
+        ssd1306_draw_string(&disp, 8, 0, 1, "Battery left:");
         ssd1306_show(&disp);
         sleep_ms(100);
         ssd1306_clear(&disp);

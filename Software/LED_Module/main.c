@@ -88,16 +88,13 @@ void reply_poll()
     msg_tx.remote_frame = false;
     msg_tx.extended_id = false;
     can_send_message(&msg_tx);
-    printf("Message sent!");
 }
 
 void process_message(can_msg_t *msg)
 {
-    printf("CAN msg, id:%hx, [%0hhx %0hhx %0hhx %0hhx %0hhx %0hhx %0hhx %0hhx]\n", msg->id, msg->data[0], msg->data[1], msg->data[2], msg->data[3], msg->data[4], msg->data[5], msg->data[6], msg->data[7]);
     switch (msg->data[0])
     {
     case 0x01:
-        printf("poll gotten, ID=%hhx, my ID=%hhx\n", msg->data[1], CAN_ID);
         if (msg->data[1] == CAN_ID)
             reply_poll();
         break;
@@ -109,7 +106,6 @@ void process_message(can_msg_t *msg)
 
         if (msg->data[1] == CAN_ID)
         {
-            printf("White brightness: %hhu \n", msg->data[2]);
             set_white_brightness(msg->data[2]);
             set_red_brightness(msg->data[3]);
             set_amber_brightness(msg->data[4]);
@@ -140,23 +136,22 @@ void init()
     can_init(GP_MOSI, GP_MISO, GP_SCK, GP_CSn, SPI_PORT);
     sleep_ms(1500);
     i2c_sensors_init();
-    gpio_put(GP_STATUS3, 1);
+    gpio_put(GP_STATUS3, 0);
 }
 
 int main()
 {
     init();
     can_msg_t msg_rx;
-    set_red_brightness(5);
+
     while (true)
     {
         uint16_t light_level = ltr_get_light_level();
         light_hi = (uint8_t)(light_level >> 8);
         light_lo = (uint8_t)(light_level & 0xFF);
-        accel_x = (uint8_t)(mc34_get_x() * 0.0239429f);
+        accel_x = (uint8_t)(mc34_get_x() * 0.0239429f); //Convert to m/s^2
         accel_y = (uint8_t)(mc34_get_y() * 0.0239429f);
         accel_z = (uint8_t)(mc34_get_z() * 0.0239429f);
-        // printf("ADC: %hu, temp: %f\n", adc_read(), get_temperature());
 
         if (get_temperature() > 60.0f)
         {
@@ -171,13 +166,9 @@ int main()
         }
         if (can_get_message(&msg_rx))
         {
-            // set_white_brightness(100);
-            // sleep_ms(100);
-            // set_white_brightness(0);
-            printf("ADC: %hu, temp: %f\n", adc_read(), get_temperature());
+
             gpio_put(GP_STATUS1, 1);
 
-            printf("CAN message!!11!!1");
             if (msg_rx.id == CAN_ID_MASTER)
             {
                 process_message(&msg_rx);
@@ -186,3 +177,9 @@ int main()
         }
     }
 }
+
+/*
+PWM 32/255:  25V 45mA  1.125W in -> 750mW ut, 67%
+PWM 64/255:  25V 103mA 2.575W in -> 2.1W ut , 81%
+PWM 128/255: 25V 227mA 5.675W in -> 5.03W ut, 88%
+*/

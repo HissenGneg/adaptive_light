@@ -85,12 +85,12 @@ bool can_get_message(can_msg_t *msg)
         }
 
     sleep_us(10);
-    printf("id=%u\n",msg->id);
-    printf("ID part 1=%lu\n",(((rxid0 << 3))));
-    printf("ID part 2=%lu\n",((rxid1 >> 5) & 0b111) );
-    printf("ID part 3=%lu\n",(msg->extended_id ? (((rxid1 & 0b11) << 11)) : 0) );
-    printf("ID part 4=%lu\n",(msg->extended_id ? (((rxid2) << 13)) : 0) );
-    printf("ID part 5=%lu\n",(msg->extended_id ? (((rxid3) << 21)) : 0));
+    //printf("id=%u\n",msg->id);
+    //printf("ID part 1=%lu\n",(((rxid0 << 3))));
+    //printf("ID part 2=%lu\n",((rxid1 >> 5) & 0b111) );
+    //printf("ID part 3=%lu\n",(msg->extended_id ? (((rxid1 & 0b11) << 11)) : 0) );
+    //printf("ID part 4=%lu\n",(msg->extended_id ? (((rxid2) << 13)) : 0) );
+    //printf("ID part 5=%lu\n",(msg->extended_id ? (((rxid3) << 21)) : 0));
     mcp_set_bitmask(MCP_ADDR_CANINTF,1<<rxbuf, 0); // clear rx buffer full bit
     return true;
 }

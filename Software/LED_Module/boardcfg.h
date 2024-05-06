@@ -35,9 +35,9 @@
 #define CAN_ID_LED_3 8
 #define CAN_ID_LED_4 16
 
-#define MODULE_NUM 1
+#define MODULE_NUM 4
 
-#define CAN_ID CAN_ID_LED_1
+#define CAN_ID CAN_ID_LED_4
 #define GP_SDA 4
 #define GP_SCL 5
 
